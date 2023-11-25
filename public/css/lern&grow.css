@@ -1,0 +1,287 @@
+.main-sec {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 45px;
+    width: 100%;
+    height: 100%;
+}
+
+.first-lern {
+    font-size: 3.4em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.second-lern {
+    text-align: center;
+}
+
+.main-title {
+    color: #2ca8dd;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-title:hover {
+    color: #2ca8dd;
+}
+
+.card-des {
+    text-align: center;
+    margin: 0 auto;
+    color: #111111;
+}
+
+.upcoming-lern {
+    color: #2ca8dd;
+    font-size: 34px;
+}
+
+.after-upcoming-lern {
+    font-size: 16px;
+}
+
+.button-lern {
+    text-align: center;
+    margin-top: 30px;
+    padding: 7px;
+    width: 35%;
+    border-radius: 5px;
+    background-color: #2ca8dd;
+    color: #fff;
+    border: none;
+}
+
+.button-lern:hover {
+    background-color: transparent;
+    color: #2ca8dd;
+    border: 1px solid #2ca8dd;
+    transition: all 0.3s;
+}
+
+.academy-card {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.enroll-btn {
+    color: #fff;
+    background-color: #2ca8dd;
+    border: 1px solid #2ca8dd;
+    padding: 7px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.enroll-btn:hover {
+    border: 1px solid #2ca8dd;
+    color: #2ca8dd;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+
+@media screen and (max-width:1200px) {
+
+    /* main text section  */
+    .main-sec {
+        margin-top: 110px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-lern {
+        font-size: 2.8em;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .second-lern {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .main-title {
+        color: #2ca8dd;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .card-des {
+        font-size: 12px;
+        text-align: center;
+        margin: 0 auto;
+        color: #111111;
+    }
+
+    .upcoming-lern {
+        color: #2ca8dd;
+        font-size: 34px;
+        white-space: nowrap;
+    }
+
+    .enroll-btn {
+        color: #fff;
+        background-color: #2ca8dd;
+        border: none;
+        padding: 7px;
+        width: 60%;
+        border-radius: 5px;
+    }
+
+    .academy-card {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    /*End main text section  */
+
+}
+
+@media screen and (max-width:991px) {
+    .main-sec {
+        margin-top: 100px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-lern {
+        font-size: 2.3em;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .second-lern {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .main-title {
+        color: #2ca8dd;
+        text-align: center;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .card-des {
+        font-size: 9px;
+        text-align: center;
+        margin: 0 auto;
+        color: #111111;
+    }
+
+    .upcoming-lern {
+        color: #2ca8dd;
+        font-size: 34px;
+        white-space: nowrap;
+    }
+
+    .enroll-btn {
+        color: #fff;
+        background-color: #2ca8dd;
+        border: none;
+        padding: 7px;
+        width: 60%;
+        border-radius: 5px;
+    }
+
+    .academy-card {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    /* main text section  */
+    .main-sec {
+        margin-top: 100px;
+        margin-bottom: 5px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-lern {
+        font-size: 1.7em;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .second-lern {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .main-title {
+        color: #2ca8dd;
+        text-align: center;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .card-des {
+        font-size: 9px;
+        text-align: center;
+        margin: 0 auto;
+        color: #111111;
+    }
+
+    .upcoming-lern {
+        color: #2ca8dd;
+        font-size: 34px;
+        white-space: nowrap;
+    }
+
+    .enroll-btn {
+        color: #fff;
+        background-color: #2ca8dd;
+        border: none;
+        padding: 7px;
+        width: 60%;
+        border-radius: 5px;
+    }
+
+    .academy-card {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    /*End main text section  */
+}
+
+@media screen and (max-width:576px) {
+
+    /* main text section  */
+    .main-sec {
+        margin-top: 100px;
+        margin-bottom: 5px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .upcoming-lern {
+        color: #2ca8dd;
+        font-size: 30px;
+
+    }
+
+    .button-lernn {
+        text-align: center;
+        margin-top: 30px;
+        padding: 7px;
+        width: 45%;
+        border-radius: 5px;
+        color: #fff;
+        border: none;
+    }
+
+    /*End main text section  */
+}

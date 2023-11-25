@@ -1,0 +1,219 @@
+.first-blog {
+    color: black;
+    font-size: 68px;
+    font-weight: 900;
+}
+
+.blog-heading {
+    font-size: 26px;
+    color: #000;
+}
+
+.blog-des {
+    font-size: 16px;
+    color: #424542;
+}
+
+.text-blog {
+    border-bottom: 1px solid #e5e1e1;
+}
+
+.row-float-left-blog {
+    color: #898b89;
+}
+
+.row-float-right-blog {
+    color: #898b89;
+}
+
+@media screen and (max-width:1200px) {
+
+    /* main text section  */
+    .main-sec {
+        margin-top: 90px;
+        margin-bottom: 30px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-blog {
+        color: black;
+        font-size: 68px;
+        font-weight: 900;
+    }
+
+    .row-float-left-blog {
+        color: #898b89;
+        float: left;
+        margin: 0 0 0 20px;
+    }
+
+    .row-float-right-blog {
+        float: right;
+        color: #898b89;
+    }
+
+    .first-blog-sec {
+        margin-left: 200px;
+        text-align: center;
+    }
+
+    .second-blog-sec {
+        margin-left: 200px;
+        text-align: center;
+    }
+
+    .third-blog-sec {
+        margin-left: 200px;
+        text-align: center;
+    }
+
+    .forth-blog-sec {
+        margin-left: 200px;
+        text-align: center;
+    }
+
+    .fiveth-blog-sec {
+        margin-left: 200px;
+        text-align: center;
+    }
+
+    .sixth-blog-sec {
+        margin-left: 200px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    /* main text section  */
+    .main-sec {
+        margin-top: 70px;
+        margin-bottom: 30px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-blog {
+        color: black;
+        font-size: 58px;
+        font-weight: 700;
+    }
+
+    .row-float-left-blog {
+        color: #898b89;
+        float: left;
+        margin: 0 0 0 30px;
+    }
+
+    .first-blog-sec {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .second-blog-sec {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .third-blog-sec {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .forth-blog-sec {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .fiveth-blog-sec {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .sixth-blog-sec {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    /*End main text section  */
+
+}
+
+@media screen and (max-width:768px) {
+
+    /* main text section  */
+    .main-sec {
+        margin-top: 100px;
+        margin-bottom: 5px;
+        width: 100%;
+        height: 100%;
+    }
+
+    /*End main text section  */
+
+}
+
+@media screen and (max-width:576px) {
+
+    /* main text section  */
+    .main-sec {
+        margin-top: 50px;
+        margin-bottom: 5px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-blog {
+        color: black;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+
+    .row-float-left-blog {
+        color: #898b89;
+        display: inline-block;
+        white-space: nowrap;
+        margin: 0 0 0 30px;
+    }
+
+    .row-float-right-blog {
+        float: right;
+        white-space: nowrap;
+    }
+
+    .first-blog-sec {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .second-blog-sec {
+        text-align: center;
+    }
+
+
+    .third-blog-sec {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .forth-blog-sec {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+
+    .fiveth-blog-sec {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .sixth-blog-sec {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    /*End main text section  */
+
+}

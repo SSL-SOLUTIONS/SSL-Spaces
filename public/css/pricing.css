@@ -1,0 +1,165 @@
+.main-sec {
+    margin-top: 105px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.first-pricing {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.card {
+    border: none;
+}
+
+.second-pricing {
+    font-size: 55px;
+    font-weight: 900;
+    color: #999999;
+}
+
+.pricing-book-button {
+    border: none;
+    border: 1px solid #d7d6d6;
+    color: #000;
+    background-color: #fff;
+    padding: 5px 15px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.pricing-book-button:hover {
+    transition: 0.3s;
+    background-color: #2ca8dd;
+}
+
+.custom-box {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    margin: -20px 25px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid blanchedalmond;
+}
+
+.most-popular-card {
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.card-title {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.price-card {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#day-plan-dec {
+    margin-left: 5px;
+}
+
+.chair-container {
+    position: relative;
+    width: 100%;
+}
+
+.chair-image {
+    position: absolute;
+    top: calc(100% - 130px);
+    left: 90%;
+    height: 230px;
+    /* Adjust the 50px to your desired distance from the right */
+    transform: translateY(-50%);
+    animation: upDownAnimation 3.5s infinite alternate;
+}
+
+@keyframes upDownAnimation {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/* Responsive */
+@media screen and (max-width:1200px) {
+    .chair-image {
+        position: absolute;
+        top: calc(100% - 130px);
+        left: 85%;
+        height: 220px;
+        transform: translateY(-50%);
+        animation: upDownAnimation 3.5s infinite alternate;
+    }
+
+    #day-plan-dec {
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .custom-box {
+        position: absolute;
+        top: 0;
+        left: 10%;
+        right: 10%;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        color: #000;
+        margin: -20px 5px;
+        border-radius: 10px;
+        border: 1px solid blanchedalmond;
+    }
+
+    .most-popular-card {
+        font-size: 14px;
+    }
+
+    .card-title {
+        white-space: nowrap;
+    }
+
+    .price-card {
+        font-size: 28px;
+        font-weight: 900;
+        white-space: nowrap;
+    }
+
+    .chair-image {
+        position: absolute;
+        top: calc(100% - 130px);
+        left: 80%;
+        height: 200px;
+        transform: translateY(-50%);
+        animation: upDownAnimation 3.5s infinite alternate;
+    }
+
+}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:576px) {}

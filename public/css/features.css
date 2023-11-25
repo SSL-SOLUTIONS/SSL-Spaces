@@ -1,0 +1,263 @@
+.main-sec {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.first-feat {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.after-first-feat {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.second-feat {
+    border-top: 1px solid #f6f6f6;
+    text-align: center;
+}
+
+.img-feat {
+    height: 35px;
+}
+
+.feat-pic-head {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.item-feat {
+    margin-left: 1px;
+}
+
+.gallery-feat {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.before-gallery {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.card-hover {
+    transition: box-shadow 0.3s ease-in-out;
+    transition: transform 0.3s;
+}
+
+.card-hover:hover {
+    box-shadow: 0 0 5px 5px rgba(97, 93, 93, 0.2);
+    transform: scale(1.01);
+}
+
+.card-title {
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    color: #4f514f;
+}
+
+.button-feat {
+    text-align: center;
+    margin-top: 30px;
+    padding: 7px;
+    width: 15%;
+    border-radius: 8px;
+    background-color: #2ca8dd;
+    border: 1px solid #2ca8dd;
+    color: #fff;
+}
+
+.button-feat:hover {
+    color: #2ca8dd;
+    background-color: transparent;
+    border: 1px solid #2ca8dd;
+    transition: 0.3s;
+}
+
+.zoom {
+    transition: transform 0.3s;
+}
+
+.zoom:hover {
+    animation: zoomInOut 2s infinite;
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+/* Responsive */
+@media screen and (max-width:1200px) {
+
+    .main-sec {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-feat {
+        font-size: 3.2em;
+        font-weight: 700;
+    }
+
+
+    .after-first-feat {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .before-gallery {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .card-title {
+        color: #000000;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .card-text {
+        text-align: justify;
+        font-size: 14px;
+        padding: 5px;
+        color: #4f514f;
+    }
+
+    .button-feat {
+        text-align: center;
+        margin-top: 25px;
+        padding: 7px;
+        width: 25%;
+        border-radius: 5px;
+        background-color: #2ca8dd;
+        color: #fff;
+        border: none;
+    }
+
+    /* End Navbar */
+}
+
+@media screen and (max-width:991px) {
+    .main-sec {
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-feat {
+        font-size: 2.4em;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width:766px) {
+
+    .main-sec {
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-feat {
+        font-size: 2.0em;
+        font-weight: 700;
+    }
+
+
+    .after-first-feat {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .button-feat {
+        text-align: center;
+        margin-top: 25px;
+        padding: 7px;
+        width: 35%;
+        border-radius: 5px;
+        background-color: #2ca8dd;
+        color: #fff;
+        border: none;
+
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .main-sec {
+        margin-top: 90px;
+        margin-bottom: 5px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-feat {
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+
+    .after-first-feat {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .row-first-feat {
+        font-size: 14px;
+        font-weight: bold;
+
+    }
+
+    .row-second-feat {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .button-feat {
+        text-align: center;
+        margin-top: 25px;
+        padding: 7px;
+        width: 55%;
+        border-radius: 5px;
+        background-color: #2ca8dd;
+        color: #fff;
+        border: none;
+
+    }
+
+}
